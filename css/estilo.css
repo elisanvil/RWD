@@ -1,0 +1,68 @@
+header#titulo h1{
+	text-align: center;
+	margin: 15px auto;
+}
+
+body {
+	background-image: url("http://www.neoradio.cl/wp-content/uploads/2015/07/diseno-de-fondos-blanco-1851.jpg");
+}
+
+div img{
+	width:8%;
+	float:left;
+	margin-right: 10px;
+}
+
+
+div.caja {
+	border: 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	padding: 5px;
+	margin: 10pt 150pt;
+}
+
+div#datos header h2 {
+	text-align:center;
+}
+
+p.anio {
+	font-style: italic;
+}
+
+div#espol img{
+	width:33%;
+	float:left;
+	margin-right: 10px;
+}
+
+div#uebcr img{
+	width:33%;
+	float:left;
+	margin-right: 10px;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+li {
+	display: inline-block;
+	text-align: left;
+	margin: 5px 35px;
+	padding: 10pt 0pt;
+	width: 120px;
+	border-radius: 25px;
+	background-color: #E0E0E0;	
+	box-shadow: 10px 10px 10px #ccccff;
+}
+
+b {
+	color: white;
+	position: relative;
+	left: -10px;
+	background-color: blue;
+	border-radius: 25px;
+	padding: 10pt 13pt;
+}

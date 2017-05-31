@@ -1,0 +1,86 @@
+header#titulo h1{
+	text-align: center;
+	margin: 15px auto;
+	font-family: 'Anton';
+	color: #414239;
+	font-size: 4em;
+}
+
+body {
+	background-color: #CFE9F5;
+}
+
+div.film header {
+	font-family: 'Lobster';
+	color: #9e0947;
+	font-size: 2.5em;
+}
+
+div img{
+	width:16%;
+	float:left;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+div img:hover {
+	opacity: 0.8;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+div p.sinopsis {
+	margin-right: 400pt;
+	padding-right: 50pt;
+	text-align: justify;
+}
+
+div b.reparto {
+	padding-right: 70pt;
+	padding-right: 70pt;
+}
+
+div b {
+	color: #ce105c;
+	size: 1em;
+}
+
+div li, b, p {
+	font-family: Verdana;
+	font-size: 10.5pt;
+}
+
+div ul {
+	float: right;
+}
+
+div li {
+	list-style-image: url("https://goo.gl/6hPSSH");
+}
+
+div li[famoso="principal"] {
+	font-weight: bold;
+}
+
+div li[famoso="secundario"] {
+	font-style: italic;
+}
+
+div iframe {
+	width: 400px; 
+	height: 290px; 
+	float: right;
+	margin-right: 10pt;
+	margin-bottom: 10pt;
+}
+
+div.film {
+	margin-bottom: 10pt 10pt 50pt;
+	padding: 10pt;
+	border: 1px;
+	border-style: dotted;
+	border-color: #d7d8cb;
+}
