@@ -1,4 +1,193 @@
-header#titulo h1{
+@media only screen and (min-width: 600px) {
+	/*Tablets*/
+	* {
+    	box-sizing: border-box;
+	}
+
+	header#titulo h1{
+		text-align: center;
+		margin: 15px auto;
+		font-family: 'Anton';
+		color: #414239;
+		font-size: 3em;
+	}
+
+	body {
+		background-color: #CFE9F5;
+	}
+
+	div ul {
+		display: none;
+	}
+
+	div b.sinopsis {
+		display: none;
+	}
+
+	div p.sinopsis {
+		display: none;
+	}
+
+	div header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1em;
+	}
+
+	div iframe {
+		width: 400px; 
+		height: 290px; 
+		float: right;
+		margin-right: 10pt;
+		margin-bottom: 10pt;
+	}
+
+	div img{
+		display: none;
+	}
+
+}
+
+/*Smartphones*/
+/*@media only screen and (max-width : 480px) {
+	
+	* {
+    box-sizing: border-box;
+	}
+
+	header#titulo h1{
+		text-align: center;
+		margin: 15px auto;
+		font-family: 'Anton';
+		color: #414239;
+		font-size: 3em;
+	}
+
+	body {
+		background-color: #CFE9F5;
+	}
+
+	div.film iframe {
+		display: none;
+	}
+
+	div#p1 ul {
+		display: none;
+	}
+
+	div b.sinopsis {
+		display: none;
+	}
+
+	div#p1 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1.5em;
+	}
+
+	div#p2 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1em;
+	}
+
+	div#p3 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1em;
+		margin-left: 60%;
+		margin-top: 70%;
+	}
+
+	div#p4 header {
+		font-family: 'Lobster';
+		color: #9e0947;
+		font-size: 1em;
+	}
+
+	div img{
+		width:40%;
+		float:left;
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+	div img:hover {
+		opacity: 0.8;
+	}
+
+	hr#p1 {
+	  background-color: black;
+	  border-top: 2px dotted;
+	}
+
+	hr#p2, hr#p3, hr#p4, hr#p5 {
+	  display: none;
+	}
+
+	div#p1 p.sinopsis {
+		margin-right: auto;
+		text-align: justify;
+	}
+
+	div#p2 p.sinopsis {
+		display: none;
+	}
+
+	div#p3 p.sinopsis {
+		display: none;
+	}
+
+	div#p2 img {
+		float: left;
+		margin-top: -10%;
+	}
+
+	div#p3 img {
+		float: right;
+		margin-top: -75%;
+	}
+
+	div#p4 img {
+		float: left;
+		margin-top: -70px;
+	}
+
+	div#p4 p.sinopsis {
+		display: none;
+	}
+
+	div ul {
+		clear: both;
+	}
+
+	div b {
+		color: #ce105c;
+		size: 1em;
+	}
+
+	div li, b, p {
+		font-family: Verdana;
+		font-size: 7.5pt;
+	}
+
+	div li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	div li[famoso="principal"] {
+		font-weight: bold;
+	}
+
+	div li[famoso="secundario"] {
+		font-style: italic;
+	}
+
+}*/
+
+
+/*header#titulo h1{
 	text-align: center;
 	margin: 15px auto;
 	font-family: 'Anton';
@@ -83,4 +272,4 @@ div.film {
 	border: 1px;
 	border-style: dotted;
 	border-color: #d7d8cb;
-}
+}*/
