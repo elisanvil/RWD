@@ -21,11 +21,28 @@
 		text-align: center;
 	}
 
-	div img.receta{
-		width: 19%;
-		float: left;
+	hr.sepreceta {
+		display: none;
+	}
+
+	div#recetas {
+		text-align: center;
+	}
+
+	div img.receta {
+		width: 90%;
 		margin-right: 10px;
-		display: inline-block;
+	}
+
+	div audio {
+		width: 90%;
+		margin-right: 10px;
+	}
+
+	div#r1, div#r2, div#r3 {
+		width: 50%;
+		float: left;
+		margin: 0px;
 	}
 
 	div.caja {
