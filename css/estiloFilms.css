@@ -4,20 +4,28 @@
     	box-sizing: border-box;
 	}
 
+	header#titulo {
+		background-color: lightgrey;
+		margin: 0px;
+		padding: 0px;
+	}
+
 	header#titulo h1{
 		text-align: center;
 		margin: 15px auto;
 		font-family: 'Anton';
 		color: #414239;
 		font-size: 3em;
+		margin: 0px;
 	}
 
 	body {
 		background-color: #CFE9F5;
 	}
 
-	div ul {
-		display: none;
+	div li {
+		list-style: none;
+		display: inline-block;
 	}
 
 	div b.sinopsis {
@@ -35,16 +43,52 @@
 	}
 
 	div iframe {
-		width: 400px; 
-		height: 290px; 
-		float: right;
+		width: 300px; 
+		height: 190px; 
 		margin-right: 10pt;
 		margin-bottom: 10pt;
+	}
+
+	div#p2 iframe {
+		margin:0;
+		clear: both;
+	}
+
+	div#p3 {
+		clear: both;
+	}
+
+	div#p4 {
+		display: none;
 	}
 
 	div img{
 		display: none;
 	}
+
+	hr {
+		display: none;
+	}
+
+	div b {
+		color: #ce105c;
+		size: 1em;
+	}
+
+	div li, b, p {
+		font-family: Verdana;
+		font-size: 7.5pt;
+	}
+
+	div li[famoso="principal"] {
+		font-weight: bold;
+	}
+
+	div li[famoso="secundario"] {
+		font-style: italic;
+	}
+
+
 
 }
 
