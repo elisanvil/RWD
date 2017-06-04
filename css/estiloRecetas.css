@@ -1,4 +1,128 @@
-body {
+@media only screen and (max-width: 480px) {
+	
+	* {
+    	box-sizing: border-box;
+	}
+
+	body {
+		background-image: url("https://0.s3.envato.com/files/131805653/0747%20-%203D%20Character%20Wearing%20Chef%20Hat%20Holding%20Salt%20and%20Pepper%20-%20FINAL-01.jpg");
+		background-position: top left;
+		background-color: white;
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-attachment: fixed;
+		opacity: 0.95;
+	}
+
+	header#titulo-sitio {
+		font-size: 1.5em;
+		color: #d39a0a;
+		text-shadow: #bc8609;
+		text-align: center;
+	}
+
+	div img.receta{
+		width: 19%;
+		float: left;
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+	div.caja {
+		width: 100%;
+		border: 1pt;
+		border-style: solid;
+		border-color: black;
+		margin-top: 5px;
+	}
+
+	div#c1 ~ div {
+		border-radius: 20px;
+	}
+
+	div#c1 {
+		border-radius: 20px;
+		background-image: url(http://www.sansae.com/wp-content/uploads/2015/12/coctel-de-camarones-a-la-mexicana-sansae--960x760.jpg);
+		background-attachment: fixed;
+		background-size: 40%;
+	}
+
+	div.caja:hover {
+		opacity: 0.7;
+	}
+
+	div#c2 {
+		background-image: url("http://cdn.colombia.com/sdi/2013/03/05/pollo-a-la-naranja-536650.jpg");
+		background-attachment: fixed;
+		background-size: 50%;
+	}
+
+	div#c3 {
+		background-image: url("http://img.taste.com.au/kV_SBhAU/w720-h480-cfill-q80/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
+		background-attachment: fixed;
+		background-size: 70%;
+	}
+
+	div#c4 {
+		background-image: url("http://blog.kiwilimon.com/wp-content/uploads/2014/12/recetas-de-rompope.jpg");
+		background-attachment: fixed;
+		background-size: 45%;
+	}
+
+	div#c5 {
+		background-image: url("https://i.ytimg.com/vi/Oju3HzPpg3E/maxresdefault.jpg");
+		background-attachment: fixed;
+		background-size: 40%;
+	}
+
+	div h3 a:link {
+		font-variant: small-caps;
+		color: #db990a;
+	}
+
+	div h3 a:hover{
+		text-decoration: none;
+		color: #edc163;
+		
+	}
+
+	div h3 a:visited {
+		color: #7c652e;
+	}
+
+	div.caja b {
+		color: #d69f2a;
+	}
+
+	div.caja p {
+		display: none;
+	}
+
+
+	hr.sepreceta {
+	  border: 1px dotted;
+	  color: #e0d2b1;
+	}
+
+	div p.detalle {
+		display: none;
+	}
+
+	div#c4 {
+		display: none;
+	}
+
+	div#c5 {
+		display: none;
+	}
+
+	div#r3 {
+		display: none;
+	}
+
+}	
+
+/*body {
 	background-image: url("https://0.s3.envato.com/files/131805653/0747%20-%203D%20Character%20Wearing%20Chef%20Hat%20Holding%20Salt%20and%20Pepper%20-%20FINAL-01.jpg");
 	background-position: top left;
 	background-color: white;
@@ -121,4 +245,4 @@ hr.sepreceta {
 
 div p.detalle {
 	padding: 5px;
-}
+}*/
