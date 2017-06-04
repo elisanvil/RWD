@@ -15,13 +15,12 @@
 		border-color: #cbccc1;
 		border-radius: 5%;
 		padding: 5px;
-		margin: 10pt 150pt;
+		margin: 20pt 150pt;
 	}
 
 	div#perfil {
 		margin-top: 50px;
 		text-align: center;
-
 	}
 
 	div#perfil h2 {
@@ -57,7 +56,8 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
-	div#datos h2{
+
+	div#datos h2 {
 		display: none;
 	}
 
@@ -65,7 +65,19 @@
 		text-align: center;
 	}
 
+	div#educacion div {
+		float: left;
+		width: 50%;
+		margin: 0px;
+		text-align: center;
+	}
+
 	div#espol p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	div#uebcr p {
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
@@ -75,11 +87,30 @@
 	}
 
 	div#educacion img {
-		width: 50%;
+		width: 90%;
+	}
+
+	div#educacion h4 {
+		font-size: 0.6em;
+		text-align: center;
+	}
+
+	div#educacion p {
+		margin-right: 10px;
+		font-size: 0.6em;
+		text-align: justify;
+	}
+
+	div#habilidad {
+		clear: both;
 	}
 
 	div#habilidad header {
 		text-align: center;
+	}
+
+	hr {
+		display: none;
 	}
 
 	li {
@@ -87,7 +118,6 @@
 		text-align: left;
 		margin: 5px 35px;
 		padding: 10pt 0pt;
-		width: 120px;
 		border-radius: 25px;
 		background-color: #E0E0E0;	
 		box-shadow: 10px 10px 10px #ccccff;
@@ -107,15 +137,13 @@
 		padding: 10pt 13pt;
 	}
 
-	div ul li.h1 {
-		margin-right: auto;
-		margin-left: 6px;	
+	ul li {
+		margin:0px 11px;		
+		width: 40%;
+		height: 100%;
+		float: left;
 	}
-
-	div ul li.h2 {
-		margin-right: auto;
-		margin-left: 6px;
-	}
+}
 
 
 /** {
