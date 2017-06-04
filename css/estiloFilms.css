@@ -1,5 +1,5 @@
+/*Tablets*/
 @media only screen and (min-width: 600px) {
-	/*Tablets*/
 	* {
     	box-sizing: border-box;
 	}
@@ -25,7 +25,7 @@
 
 	div li {
 		list-style: none;
-		display: inline-block;
+		display: inline;
 	}
 
 	div b.sinopsis {
@@ -36,26 +36,40 @@
 		display: none;
 	}
 
-	div header {
+	div header h2 {
 		font-family: 'Lobster';
 		color: #9e0947;
-		font-size: 1em;
+		font-size: 1.5em;
+		margin: 10px 0px;
 	}
 
 	div iframe {
-		width: 300px; 
+		width: 280px; 
 		height: 190px; 
-		margin-right: 10pt;
-		margin-bottom: 10pt;
+		margin: 0pt 10pt 0pt 0pt;
+
 	}
 
-	div#p2 iframe {
-		margin:0;
-		clear: both;
+	div.film {
+		margin: 0px;
+		width: 50%;
+		height: 100%;
+		float: left;
 	}
 
-	div#p3 {
-		clear: both;
+	div.film h2 {
+		text-align: center;
+
+	}
+
+	div ul {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div ul il{
+		margin: 0px;
+		padding: 0px;
 	}
 
 	div#p4 {
@@ -109,6 +123,13 @@
 		background-color: #CFE9F5;
 	}
 
+	div#p2, div#p3, div#p4 {
+		margin: 0px;
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+
 	div.film iframe {
 		display: none;
 	}
@@ -127,31 +148,25 @@
 		font-size: 1.5em;
 	}
 
-	div#p2 header {
-		font-family: 'Lobster';
-		color: #9e0947;
-		font-size: 1em;
+	div#p1 header h2 {
+		margin: 0px;
 	}
 
-	div#p3 header {
+	div#p2 header, div#p3 header, div#p4 header {
 		font-family: 'Lobster';
 		color: #9e0947;
-		font-size: 1em;
-		margin-left: 60%;
-		margin-top: 70%;
+		font-size: 0.8em;
 	}
 
-	div#p4 header {
-		font-family: 'Lobster';
-		color: #9e0947;
-		font-size: 1em;
-	}
-
-	div img{
-		width:40%;
+	div img {
+		width:60%;
 		float:left;
 		margin-right: 10px;
 		display: inline-block;
+	}
+
+	div#p2 img, div#p3 img, div#p4 img {
+		margin-top: -20%;
 	}
 
 	div img:hover {
@@ -172,34 +187,13 @@
 		text-align: justify;
 	}
 
-	div#p2 p.sinopsis {
-		display: none;
-	}
-
-	div#p3 p.sinopsis {
-		display: none;
-	}
-
-	div#p2 img {
-		float: left;
-		margin-top: -10%;
-	}
-
-	div#p3 img {
-		float: right;
-		margin-top: -75%;
-	}
-
-	div#p4 img {
-		float: left;
-		margin-top: -70px;
-	}
-
-	div#p4 p.sinopsis {
+	div#p2 p.sinopsis, div#p3 p.sinopsis, div#p4 p.sinopsis {
 		display: none;
 	}
 
 	div ul {
+		margin: 0px;
+		padding: 0px;
 		clear: both;
 	}
 
@@ -215,7 +209,9 @@
 
 	div li {
 		list-style: none;
-		display: inline-block;
+		display: inline;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	div li[famoso="principal"] {
@@ -225,7 +221,6 @@
 	div li[famoso="secundario"] {
 		font-style: italic;
 	}
-
 }*/
 
 
