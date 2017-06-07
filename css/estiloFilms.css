@@ -15,12 +15,8 @@
 		margin: 15px auto;
 		font-family: 'Anton';
 		color: #414239;
-		font-size: 3em;
+		font-size: 3em !important;
 		margin: 0px;
-	}
-
-	body {
-		background-color: #CFE9F5;
 	}
 
 	div li {
@@ -39,22 +35,22 @@
 	div header h2 {
 		font-family: 'Lobster';
 		color: #9e0947;
-		font-size: 1.5em;
-		margin: 10px 0px;
+		font-size: 0.5em !important;
+		margin: 10px 0px !important;
 	}
 
 	div iframe {
-		width: 280px; 
-		height: 190px; 
+		width: 280px !important; 
+		height: 190px !important; 
 		margin: 0pt 10pt 0pt 0pt;
 
 	}
 
 	div.film {
 		margin: 0px;
-		width: 50%;
-		height: 100%;
-		float: left;
+		width: 50% !important;
+		height: 100% !important;
+		float: left !important;
 	}
 
 	div.film h2 {
@@ -67,7 +63,7 @@
 		padding: 0px;
 	}
 
-	div ul il{
+	div ul li {
 		margin: 0px;
 		padding: 0px;
 	}
@@ -77,29 +73,29 @@
 	}
 
 	div img{
-		display: none;
+		display: none !important;
 	}
 
 	hr {
-		display: none;
+		display: none !important;
 	}
 
 	div b {
 		color: #ce105c;
-		size: 1em;
+		size: 1em !important;
 	}
 
 	div li, b, p {
 		font-family: Verdana;
-		font-size: 7.5pt;
+		font-size: 7.5pt !important;
 	}
 
-	div li[famoso="principal"] {
-		font-weight: bold;
+	div b.reparto {
+		padding-right: 0pt !important;
 	}
 
-	div li[famoso="secundario"] {
-		font-style: italic;
+	div.film {
+		border: 0px !important;
 	}
 
 }
@@ -214,17 +210,10 @@
 		padding: 0px;
 	}
 
-	div li[famoso="principal"] {
-		font-weight: bold;
-	}
-
-	div li[famoso="secundario"] {
-		font-style: italic;
-	}
 }*/
 
 
-/*header#titulo h1{
+header#titulo h1{
 	text-align: center;
 	margin: 15px auto;
 	font-family: 'Anton';
@@ -242,7 +231,7 @@ div.film header {
 	font-size: 2.5em;
 }
 
-div img{
+div img {
 	width:16%;
 	float:left;
 	margin-right: 10px;
@@ -254,8 +243,8 @@ div img:hover {
 }
 
 hr {
-  height: 3px;
-  background-color: black;
+  	height: 3px;
+  	background-color: black;
 }
 
 div p.sinopsis {
@@ -265,7 +254,6 @@ div p.sinopsis {
 }
 
 div b.reparto {
-	padding-right: 70pt;
 	padding-right: 70pt;
 }
 
@@ -309,4 +297,4 @@ div.film {
 	border: 1px;
 	border-style: dotted;
 	border-color: #d7d8cb;
-}*/
+}
