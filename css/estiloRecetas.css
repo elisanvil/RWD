@@ -4,18 +4,8 @@
     	box-sizing: border-box;
 	}
 
-	body {
-		background-image: url("https://0.s3.envato.com/files/131805653/0747%20-%203D%20Character%20Wearing%20Chef%20Hat%20Holding%20Salt%20and%20Pepper%20-%20FINAL-01.jpg");
-		background-position: top left;
-		background-color: white;
-		background-repeat: no-repeat;
-		background-size: 60%;
-		background-attachment: fixed;
-		opacity: 0.95;
-	}
-
 	header#titulo-sitio {
-		font-size: 1.5em;
+		font-size: 1.5em !important;
 		color: #d39a0a;
 		text-shadow: #bc8609;
 		text-align: center;
@@ -29,28 +19,37 @@
 		text-align: center;
 	}
 
-	div img.receta {
-		width: 90%;
+	div#r1 img.receta {
+		width: 90% !important;
+		margin-right: 10px;
+	}
+
+	div#r2 img.receta {
+		width: 105% !important;
 		margin-right: 10px;
 	}
 
 	div audio {
-		width: 90%;
+		width: 90% !important;
 		margin-right: 10px;
 	}
 
 	div#r1, div#r2, div#r3 {
-		width: 50%;
-		float: left;
+		width: 50% !important;
+		float: left !important;
 		margin: 0px;
 	}
 
 	div.caja {
-		width: 100%;
+		width: 100% !important;
 		border: 1pt;
 		border-style: solid;
 		border-color: black;
-		margin-top: 5px;
+		margin-top: 5px !important;
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+		margin-bottom: 0px !important;
+
 	}
 
 	div#c1 ~ div {
@@ -58,10 +57,13 @@
 	}
 
 	div#c1 {
+		position: relative !important;
+		top: 0px !important;
+		left: 0px !important;
 		border-radius: 20px;
 		background-image: url(http://www.sansae.com/wp-content/uploads/2015/12/coctel-de-camarones-a-la-mexicana-sansae--960x760.jpg);
 		background-attachment: fixed;
-		background-size: 40%;
+		background-size: 40% !important;
 	}
 
 	div.caja:hover {
@@ -69,27 +71,39 @@
 	}
 
 	div#c2 {
+		position: relative !important;
+		top: 0px !important;
+		left: 0px !important;
 		background-image: url("http://cdn.colombia.com/sdi/2013/03/05/pollo-a-la-naranja-536650.jpg");
 		background-attachment: fixed;
-		background-size: 50%;
+		background-size: 50% !important;
 	}
 
 	div#c3 {
+		position: relative !important;
+		top: 0px !important;
+		left: 0px !important;
 		background-image: url("http://img.taste.com.au/kV_SBhAU/w720-h480-cfill-q80/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
 		background-attachment: fixed;
-		background-size: 70%;
+		background-size: 70% !important;
 	}
 
 	div#c4 {
+		position: relative !important;
+		top: 0px !important;
+		left: 0px !important;
 		background-image: url("http://blog.kiwilimon.com/wp-content/uploads/2014/12/recetas-de-rompope.jpg");
 		background-attachment: fixed;
-		background-size: 45%;
+		background-size: 45% !important;
 	}
 
 	div#c5 {
+		position: relative !important;
+		top: 0px !important;
+		left: 0px !important;
 		background-image: url("https://i.ytimg.com/vi/Oju3HzPpg3E/maxresdefault.jpg");
 		background-attachment: fixed;
-		background-size: 40%;
+		background-size: 40% !important;
 	}
 
 	div h3 a:link {
@@ -136,10 +150,9 @@
 	div#r3 {
 		display: none;
 	}
-
 }	
 
-/*body {
+body {
 	background-image: url("https://0.s3.envato.com/files/131805653/0747%20-%203D%20Character%20Wearing%20Chef%20Hat%20Holding%20Salt%20and%20Pepper%20-%20FINAL-01.jpg");
 	background-position: top left;
 	background-color: white;
@@ -156,10 +169,15 @@ header#titulo-sitio {
 }
 
 div img.receta{
-	width: 19%;
-	float: left;
+	width: 18%;
+	float:left;
 	margin-right: 10px;
+	margin-top: 20px;
 	display: inline-block;
+}
+
+div p.detalle {
+	margin: 28px 0px;
 }
 
 div.caja {
@@ -179,7 +197,7 @@ div#c1 ~ div {
 div#c1 {
 	border-radius: 20px;
 	position: relative;
-	top: 50px;
+	top: -40px;
 	left: -530px;
 
 	background-image: url(http://www.sansae.com/wp-content/uploads/2015/12/coctel-de-camarones-a-la-mexicana-sansae--960x760.jpg);
@@ -193,7 +211,7 @@ div.caja:hover {
 
 div#c2 {
 	position: relative;
-	top: -22px;
+	top: -95px;
 	left: -260px;
 
 	background-image: url("http://cdn.colombia.com/sdi/2013/03/05/pollo-a-la-naranja-536650.jpg");
@@ -203,7 +221,7 @@ div#c2 {
 
 div#c3 {
 	position: relative;
-	top: -93px;
+	top: -148px;
 	left: 10px;
 
 	background-image: url("http://img.taste.com.au/kV_SBhAU/w720-h480-cfill-q80/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
@@ -213,7 +231,7 @@ div#c3 {
 
 div#c4 {
 	position: relative;
-	top: -165px;
+	top: -203px;
 	left: 280px;
 
 	background-image: url("http://blog.kiwilimon.com/wp-content/uploads/2014/12/recetas-de-rompope.jpg");
@@ -223,7 +241,7 @@ div#c4 {
 
 div#c5 {
 	position: relative;
-	top: -238px;
+	top: -258px;
 	left: 550px;
 
 	background-image: url("https://i.ytimg.com/vi/Oju3HzPpg3E/maxresdefault.jpg");
@@ -262,4 +280,4 @@ hr.sepreceta {
 
 div p.detalle {
 	padding: 5px;
-}*/
+}
